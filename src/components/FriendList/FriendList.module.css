@@ -1,0 +1,30 @@
+.list{
+  width: 350px;
+}
+
+.item{
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+    display: block;
+    position: relative;
+}
+
+.status {
+  border-radius: 15px;
+  display: block;
+  height: 10px;
+  left: -5%;
+  position: absolute;
+  top: 40%;
+  width: 10px;
+  background-color: red;
+}
+
+.status_onLine {
+  background-color: green;
+}
+.name{
+    display: initial;
+}
